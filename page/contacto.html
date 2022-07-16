@@ -1,0 +1,63 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../assets/logo.png">
+        <link rel="stylesheet" href="../css/index.css">
+        <title>Contacto</title>
+        </head>
+        <body>
+            <header class="header">
+                <section>
+                    <nav class="header__nav">
+                        <li><a class="header__link" href="sobre_nosotros.html">Sobre Nosotros</a></li>
+                        <li><a class="header__link" href="blends.html">Blends</a></li>
+                        <div>
+                            <a class="header__link--logo"href="../index.html"> <img src="../assets/logo.png"  alt="Logo"> </a> 
+                    </div> 
+                        <li><a class="header__link" href="tienda.html">Tienda</a></li>
+                        <li><a class="header__link" href="contacto.html">Contacto</a></li>
+                        <a class="header__link--hamburguesa" href=""><img class="header__img--hamburguesa" src="../assets/hamburguesa.png" alt="menú hamburguesa"></a>
+                    </nav>
+                </section>
+            </header>
+            <main>
+                <section class="principal__contacto">
+                <h1 class="principal__contacto--titulo">Contacto</h1>
+                <p class="principal__contacto--texto">Esperamos tus inquietudes a través del siguiente formulario:</p>   
+                </section>
+                <form action="" class="formulario">
+                        <div class="formulario__fila1">
+                            <div class="formulario__nombre formulario__campo"> 
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required> 
+                            </div>                  
+                            <div class="formulario__nombre formulario__campo">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido" required>
+                            </div>
+                        </div> 
+                        <div class="formulario__campo">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" name="correo" id="correo" placeholder="Ingresa tu mail" required> 
+                    </div>
+                    <div class="formulario__campo"> 
+                    <label for="comentario">Comentario</label>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" ></textarea>
+                    </div>
+                    <input class="formulario__boton" type="submit" value="Enviar el formulario">
+                </form>
+            </main>
+        
+            <footer class="footer">
+                <h4 class="footer__titulo">Redes sociales</h4>
+                <div class="footer__iconos">
+                    <img src="../assets/facebook.png" alt="ícono facebook">
+                    <img src="../assets/instagram.png" alt="ícono instagram">
+                    <img src="../assets/correo-electronico.png" alt="ícono email">     
+            </div>
+            </footer> 
+        </body>
+    </html>

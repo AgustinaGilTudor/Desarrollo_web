@@ -1,0 +1,1408 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
+
+  *{
+  margin: 0;
+  padding: 0;
+  }
+
+  @media  (min-width: 320px) and (max-width: 576px) { 
+    .header{
+    margin:0;
+    align-content: center;
+    width:100%;
+    background-color: #eec78c ;
+    } 
+  .header__nav{
+    display: flex;
+    justify-content: space-evenly;
+  align-items: center;
+    /*justify-content: center;
+  align-items: center; */
+    list-style-type:none;  
+
+
+
+  }
+  .header__link{
+  /* font-family: 'Lora', serif;
+  text-transform: uppercase;
+  color:#342B1D;
+  font-weight:bold;
+  text-decoration: none;
+  padding: 1rem; */
+  font-size: 0;
+  width: 0%;
+  }
+  .header__link--logo{
+  /* padding:10px; */
+  margin-left: 2rem;
+  }
+  .principal{
+  width:auto;
+  height:100vh;
+  margin:0;
+  padding: 1rem;
+  }
+  .principal__index{
+  background-image:url(../assets/te_blend.jpg);
+  background-size:cover; 
+  background-repeat: no-repeat;
+  color:white;
+  font-size: 2rem;
+  padding: 7rem 0rem;
+  }
+  .principal__sobreNosotros{
+  color:#342B1D;
+  font-size: 1.5rem;
+  padding-left: 5rem;
+  height: 50%;
+  }
+  .principal__contacto{
+  display: grid;
+  justify-content: center; 
+  }
+  .principal__titulo{
+  /* width: 100%; */
+    padding-left:5rem; 
+  margin-bottom:2rem;
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  text-align:left;
+  }
+  .principal__contacto--titulo{
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 2rem 0;
+  }
+  .principal__texto{
+  padding: 2rem 0; 
+  font-family: 'Roboto', sans-serif;
+  } 
+  .principal__texto--index{
+  /* width: 80%; */
+  padding-bottom: 5rem;
+  padding-left:5rem;
+  font-size: 2rem;
+  }
+  .principal__texto--sobreNosotros{
+  color:#342B1D;
+  width: 80vw;
+  font-size: 1.3rem;
+  }
+  .principal__texto--blends{
+  color: #342B1D;;
+  width: 80vw;
+  font-size: 1.5rem;   
+  }
+  .principal__contacto--texto{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color:#342B1D;
+  }
+  .principal__boton{
+  border: none; 
+  margin-left:5rem;
+  }
+  .principal__boton--blends{
+  background-color: #eec78c; 
+  border: none;    
+  }
+  .principal__boton--tienda{
+  background-color: #eec78c; 
+  border: none;    
+  }
+  .principal__botonLink--index{
+  width: 3.5rem; 
+  height: 1rem;
+  padding: 1rem;
+  color: #342B1D;
+  background-color: #eec78c;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  }
+  .principal__botonLink--blends{
+  width: 5rem; 
+  height: 2rem;
+  color: white;
+  background-color:  #967e5b;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  }
+  .principal__botonLink--tienda{
+  width: 5rem; 
+  height: 2rem;
+  color: #342B1D;;
+  background-color:  #967e5b;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  }
+  .formulario__boton{
+  background-color: #342B1D;;
+  color:  white;
+  border:none;
+  height:3rem;
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  }
+
+  .header__nav--secciones{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type:none;  
+  background-color: #eec78c;
+  padding: 1rem 0;
+  }
+
+  .secundario{
+  margin-left: 5rem;   
+  margin-bottom: 4rem; 
+  }
+  .secundario__tienda{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 1rem 5rem;
+  }
+  .secundario__titulo{
+   font-family: 'Lora', serif;
+   text-transform: uppercase;
+   text-align:left;
+  }
+  .secundario__titulo--index{
+    width: 100%;
+    font-size: 2rem;  
+    padding-top: 2rem;  
+  }
+  .secundario__titulo--sobreNosotros{
+    font-size: 1rem;
+    padding: 1rem 0;
+    padding-right: 1rem;  
+    padding-left:3rem;
+  }
+  .secundario__titulo--blends{
+    font-size: 1rem;
+    width: 100%;
+  }
+  .secundario__contenedor--index{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .secundario__texto{
+    font-family: 'Roboto', sans-serif;
+  }
+  .secundario__texto--index{
+    padding-right:3rem;
+    padding-top: 5rem;
+    font-size: 1.2rem;
+  }
+  .secundario__texto--sobreNosotros{
+    font-size: 1.3rem;
+    padding-left: 0.5rem;  
+    color:#342B1D; 
+    font-family: 'Roboto', sans-serif;
+  }   
+  .secundario__texto--blends{
+    margin-bottom: 2rem;
+  }
+
+
+  .secundario__img--index{
+    padding: 4rem;
+  }
+  .secundario__index--img{
+    width: 0;  
+  }
+  .secundario__img--sobreNosotros{
+   margin-right: 1rem;
+  }
+  .secundario__sobreNosotros{
+   padding-left:5rem;
+  }
+  .secundario__autores figcaption{
+   padding-left: 4rem;  
+  }
+  .secundario__columna1{
+   display:flex;
+   flex-direction: column;
+   padding: 2rem;
+   background-color: #eec78c;
+  }
+  .secundario__columna1 figcaption{
+   padding: 0.5rem 0;
+   font-family: 'Lora', serif;
+   text-transform: uppercase;
+   font-weight: bold;
+  }
+  .secundario__columna1 h3{
+    font-family: 'Lora', serif;
+    margin-bottom:2rem;
+  }
+  .secundario__columna1--sobreNosotros{
+   font-family: 'Lora', serif;
+   text-transform: uppercase;
+   font-weight: bold;
+  }
+  .secundario__columna1--sobreNosotros figcaption{
+   text-align: start;
+   padding-left: 4rem; 
+  }
+  .secundario__columna2{
+    width:90%;
+    display:flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  .secundario__contenedor--blends{
+    width:83%;
+    background-color:#eec78c;   
+    display:grid;
+    grid-template-columns: 30% 65%;
+    margin-bottom:2rem;
+  }
+  .secundario__contenedor--sobreNosotros{
+    width:100%;
+    display:grid;
+    grid-template-columns: 20% 80%;
+    margin-bottom:2rem;
+  }
+  .secundario__contenedor--tienda{
+    width:22%;
+    background-color:#eec78c;   
+    margin: 2rem;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70% 10% 10% 10%;
+    align-content: center;  
+  }
+  .principal__botonLink--tienda{
+    width: 5rem; 
+    height: 2rem;
+    color: white;
+    background-color:  #967e5b;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  .formulario{
+    width: 100%;
+    display:grid;    
+    justify-content: center; 
+    grid-template-columns: 50rem;
+    margin: 3rem 0;
+  }
+  .formulario input{
+    padding: 1rem 0.5rem;
+  }
+  .formulario__campo{
+    display:flex;
+    flex-direction:column;
+    padding: 1rem 0;
+    font-family: 'Lora', serif;
+  }
+  .formulario__fila1{
+    display:grid; 
+    grid-template-columns: 47.5%  47.5%;
+    column-gap: 5%;
+  }
+  .formulario__nombre{
+   display:flex;
+   flex-direction:column;  
+   padding: 0.5rem 0;
+  }
+
+  .footer{
+   display: flex;
+   align-content: center;
+   justify-content: space-between;
+   padding: 2rem 0;
+   width: 100vw;
+   height:100px;
+   background-color:#eec78c ;    
+  }
+    .footer__titulo{
+    /* width: 20%; */
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    }
+    .footer__iconos{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    }
+  }
+
+  @media (min-width: 577px) and (max-width: 768px) {
+
+    .header{
+      margin:0;
+      align-content: center;
+      width:100%;
+      background-color: #eec78c ;
+    } 
+    .header__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type:none; 
+    }
+    .header__link{
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    color:#342B1D;
+    font-weight:bold;
+    text-decoration: none;
+    padding: 1rem;
+    }
+    .header__link--logo{
+    padding:10px;
+    }
+    .header__img--hamburguesa{
+    width: 0;
+    size: 0; 
+    }
+
+  .principal{
+    width:auto;
+    height:100vh;
+    margin:0;
+    padding: 1rem;
+  }
+  .principal__index{
+    background-image:url(../assets/te_blend.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    color:white;
+    font-size: 2rem;
+    padding: 7rem 0rem;
+  }
+  .principal__sobreNosotros{
+    color:#342B1D;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+  height: 50%;
+  }
+  .principal__contacto{
+    display: grid;
+    justify-content: center; 
+  }
+  .principal__titulo{
+    width: 100%;
+    padding-left:5rem; 
+    margin-bottom:2rem;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    text-align:left;
+  }
+  .principal__contacto--titulo{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 2rem 0;
+  }
+  .principal__texto{
+    padding: 2rem 0; 
+    font-family: 'Roboto', sans-serif;
+  } 
+  .principal__texto--index{
+    width: 80%;
+    padding-bottom: 5rem;
+    padding-left:5rem;
+    font-size: 2rem;
+  }
+  .principal__texto--sobreNosotros{
+    color:#342B1D;
+    width: 80vw;
+    font-size: 1.3rem;
+  }
+  .principal__texto--blends{
+    color: #342B1D;;
+    width: 80vw;
+    font-size: 1.5rem;   
+  }
+  .principal__contacto--texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:#342B1D;
+  }
+  .principal__boton{
+    border: none; 
+    margin-left:5rem;
+  }
+  .principal__boton--blends{
+    background-color: #eec78c; 
+    border: none;    
+  }
+  .principal__boton--tienda{
+    background-color: #eec78c; 
+    border: none;    
+  }
+  .principal__botonLink--index{
+    width: 3.5rem; 
+    height: 1rem;
+    padding: 1rem;
+    color: #342B1D;
+    background-color: #eec78c;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .principal__botonLink--blends{
+    width: 5rem; 
+    height: 2rem;
+    color: white;
+    background-color:  #967e5b;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  .principal__botonLink--tienda{
+    width: 5rem; 
+    height: 2rem;
+    color: #342B1D;;
+    background-color:  #967e5b;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+  }
+  .formulario__boton{
+    background-color: #342B1D;;
+    color:  white;
+    border:none;
+    height:3rem;
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .header__nav--secciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type:none;  
+    background-color: #eec78c;
+    padding: 1rem 0;
+  }
+  
+  .secundario{
+    margin-left: 5rem;   
+    margin-bottom: 4rem; 
+  }
+  .secundario__tienda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 1rem 5rem;
+  }
+  .secundario__titulo{
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    text-align:left;
+  }
+  .secundario__titulo--index{
+    width: 100%;
+    font-size: 2rem;  
+    padding-top: 2rem;  
+  }
+  .secundario__titulo--sobreNosotros{
+    font-size: 1rem;
+    padding: 1rem 0;
+    padding-right: 1rem;  
+    padding-left:3rem;
+  }
+  .secundario__titulo--blends{
+    font-size: 1rem;
+    width: 100%;
+  }
+  .secundario__contenedor--index{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+  .secundario__texto{
+    font-family: 'Roboto', sans-serif;
+  }
+  .secundario__texto--index{
+    padding-right:3rem;
+    padding-top: 5rem;
+    font-size: 1.2rem;
+  }
+  .secundario__texto--sobreNosotros{
+    font-size: 1.3rem;
+    padding-left: 0.5rem;  
+    color:#342B1D; 
+    font-family: 'Roboto', sans-serif;
+  }   
+  .secundario__texto--blends{
+    margin-bottom: 2rem;
+  }
+  
+  
+  /* .secundario__img--index{
+    padding: 4rem; 
+  } */
+  .secundario__index--img{
+  width: 0;  
+  }
+  .secundario__img--sobreNosotros{
+    margin-right: 1rem;
+  }
+  .secundario__sobreNosotros{
+    padding-left:5rem;
+  }
+  .secundario__autores figcaption{
+    padding-left: 4rem;  
+  }
+  .secundario__columna1{
+    display:flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #eec78c;
+  }
+  .secundario__columna1 figcaption{
+    padding: 0.5rem 0;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .secundario__columna1 h3{
+    font-family: 'Lora', serif;
+    margin-bottom:2rem;
+  }
+  .secundario__columna1--sobreNosotros{
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .secundario__columna1--sobreNosotros figcaption{
+    text-align: start;
+    padding-left: 4rem; 
+  }
+  .secundario__columna2{
+    width:90%;
+    display:flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  
+  .secundario__contenedor--blends{
+    width:83%;
+    background-color:#eec78c;   
+    display:grid;
+    grid-template-columns: 30% 65%;
+    margin-bottom:2rem;
+  }
+  .secundario__contenedor--sobreNosotros{
+    width:100%;
+    display:grid;
+    grid-template-columns: 20% 80%;
+    margin-bottom:2rem;
+  }
+  .secundario__contenedor--tienda{
+    width:22%;
+    background-color:#eec78c;   
+    margin: 2rem;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70% 10% 10% 10%;
+    align-content: center;  
+  }
+  .principal__botonLink--tienda{
+    width: 5rem; 
+    height: 2rem;
+    color: white;
+    background-color:  #967e5b;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  .formulario{
+    width: 100%;
+    display:grid;    
+    justify-content: center; 
+    grid-template-columns: 50rem;
+    margin: 3rem 0;
+  }
+  .formulario input{
+    padding: 1rem 0.5rem;
+  }
+  .formulario__campo{
+    display:flex;
+    flex-direction:column;
+    padding: 1rem 0;
+    font-family: 'Lora', serif;
+  }
+  .formulario__fila1{
+    display:grid; 
+    grid-template-columns: 47.5%  47.5%;
+    column-gap: 5%;
+  }
+    .formulario__nombre{
+      display:flex;
+      flex-direction:column;  
+      padding: 0.5rem 0;
+    }
+  
+    .footer{
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      padding: 2rem 0;
+      width: 100vw;
+      height:100px;
+      background-color:#eec78c ;    
+    }
+    .footer__titulo{
+      /* width: 20%; */
+      display: flex;
+      align-items: center;
+      padding-left: 5rem;
+      font-family: 'Lora', serif;
+      text-transform: uppercase;
+    }
+      .footer__iconos{
+        /* padding-right: 17rem; */
+        display:flex;
+        align-items: center;
+        justify-content: flex-end;
+      
+    }
+
+  }
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .header{
+      margin:0;
+      align-content: center;
+      width:100%;
+      background-color: #eec78c ;
+      } 
+    .header__nav{
+    display: flex;
+     /* justify-content: space-evenly;
+    align-items: center; */
+    justify-content: center;
+    align-items: center; 
+    list-style-type:none;  
+    }
+    .header__link{
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    color:#342B1D;
+    font-weight:bold;
+    text-decoration: none;
+    padding: 1rem; 
+    /*font-size: 0;
+    width: 0%;*/
+    }
+    .header__link--logo{
+    /* padding:10px; */
+    margin-left: 2rem;
+    }
+    .header__img--hamburguesa{
+      width: 0;
+      size: 0; 
+      }
+    
+    .principal{
+    width:auto;
+    height:100vh;
+    margin:0;
+    padding: 1rem;
+    }
+    .principal__index{
+    background-image:url(../assets/te_blend.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    color:white;
+    font-size: 2rem;
+    padding: 7rem 0rem;
+    }
+    .principal__sobreNosotros{
+    color:#342B1D;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    height: 50%;
+    }
+    .principal__contacto{
+    display: grid;
+    justify-content: center; 
+    }
+    .principal__titulo{
+    /* width: 100%; */
+      padding-left:5rem; 
+    margin-bottom:2rem;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    text-align:left;
+    }
+    .principal__contacto--titulo{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 2rem 0;
+    }
+    .principal__texto{
+    padding: 2rem 0; 
+    font-family: 'Roboto', sans-serif;
+    } 
+    .principal__texto--index{
+    /* width: 80%; */
+    padding-bottom: 5rem;
+    padding-left:5rem;
+    font-size: 2rem;
+    }
+    .principal__texto--sobreNosotros{
+    color:#342B1D;
+    width: 80vw;
+    font-size: 1.3rem;
+    }
+    .principal__texto--blends{
+    color: #342B1D;;
+    width: 80vw;
+    font-size: 1.5rem;   
+    }
+    .principal__contacto--texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:#342B1D;
+    }
+    .principal__boton{
+    border: none; 
+    margin-left:5rem;
+    }
+    .principal__boton--blends{
+    background-color: #eec78c; 
+    border: none;    
+    }
+    .principal__boton--tienda{
+    background-color: #eec78c; 
+    border: none;    
+    }
+    .principal__botonLink--index{
+    width: 3.5rem; 
+    height: 1rem;
+    padding: 1rem;
+    color: #342B1D;
+    background-color: #eec78c;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+    .principal__botonLink--blends{
+    width: 5rem; 
+    height: 2rem;
+    color: white;
+    background-color:  #967e5b;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    }
+    .principal__botonLink--tienda{
+    width: 5rem; 
+    height: 2rem;
+    color: #342B1D;;
+    background-color:  #967e5b;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    }
+    .formulario__boton{
+    background-color: #342B1D;;
+    color:  white;
+    border:none;
+    height:3rem;
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    }
+  
+    .header__nav--secciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type:none;  
+    background-color: #eec78c;
+    padding: 1rem 0;
+    }
+  
+    .secundario{
+    margin-left: 5rem;   
+    margin-bottom: 4rem; 
+    }
+    .secundario__tienda{
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 1rem 5rem;
+    }
+    .secundario__titulo{
+     font-family: 'Lora', serif;
+     text-transform: uppercase;
+     text-align:left;
+    }
+    .secundario__titulo--index{
+      width: 100%;
+      font-size: 2rem;  
+      padding-top: 2rem;  
+    }
+    .secundario__titulo--sobreNosotros{
+      font-size: 1rem;
+      padding: 1rem 0;
+      padding-right: 1rem;  
+      padding-left:3rem;
+    }
+    .secundario__titulo--blends{
+      font-size: 1rem;
+      width: 100%;
+    }
+    .secundario__contenedor--index{
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+  
+    .secundario__texto{
+      font-family: 'Roboto', sans-serif;
+    }
+    .secundario__texto--index{
+      padding-right:3rem;
+      padding-top: 5rem;
+      font-size: 1.2rem;
+    }
+    .secundario__texto--sobreNosotros{
+      font-size: 1.3rem;
+      padding-left: 0.5rem;  
+      color:#342B1D; 
+      font-family: 'Roboto', sans-serif;
+    }   
+    .secundario__texto--blends{
+      margin-bottom: 2rem;
+    }
+  
+  
+    .secundario__img--index{
+      padding: 4rem;
+    }
+    .secundario__index--img{
+      /* width: 0;   */
+    }
+    .secundario__img--sobreNosotros{
+     margin-right: 1rem;
+    }
+    .secundario__sobreNosotros{
+     padding-left:5rem;
+    }
+    .secundario__autores figcaption{
+     padding-left: 4rem;  
+    }
+    .secundario__columna1{
+     display:flex;
+     flex-direction: column;
+     padding: 2rem;
+     background-color: #eec78c;
+    }
+    .secundario__columna1 figcaption{
+     padding: 0.5rem 0;
+     font-family: 'Lora', serif;
+     text-transform: uppercase;
+     font-weight: bold;
+    }
+    .secundario__columna1 h3{
+      font-family: 'Lora', serif;
+      margin-bottom:2rem;
+    }
+    .secundario__columna1--sobreNosotros{
+     font-family: 'Lora', serif;
+     text-transform: uppercase;
+     font-weight: bold;
+    }
+    .secundario__columna1--sobreNosotros figcaption{
+     text-align: start;
+     padding-left: 4rem; 
+    }
+    .secundario__columna2{
+      width:90%;
+      display:flex;
+      flex-direction: column;
+      padding: 2rem;
+      align-items: flex-start;
+      justify-content: space-evenly;
+    }
+    .secundario__contenedor--blends{
+      width:83%;
+      background-color:#eec78c;   
+      display:grid;
+      grid-template-columns: 30% 65%;
+      margin-bottom:2rem;
+    }
+    .secundario__contenedor--sobreNosotros{
+      width:100%;
+      display:grid;
+      grid-template-columns: 20% 80%;
+      margin-bottom:2rem;
+    }
+    .secundario__contenedor--tienda{
+      width:22%;
+      background-color:#eec78c;   
+      margin: 2rem;
+      display:grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 70% 10% 10% 10%;
+      align-content: center;  
+    }
+    .principal__botonLink--tienda{
+      width: 5rem; 
+      height: 2rem;
+      color: white;
+      background-color:  #967e5b;
+      font-family: 'Lora', serif;
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 1rem;
+      text-decoration: none;
+    }
+    .formulario{
+      width: 100%;
+      display:grid;    
+      justify-content: center; 
+      grid-template-columns: 50rem;
+      margin: 3rem 0;
+    }
+    .formulario input{
+      padding: 1rem 0.5rem;
+    }
+    .formulario__campo{
+      display:flex;
+      flex-direction:column;
+      padding: 1rem 0;
+      font-family: 'Lora', serif;
+    }
+    .formulario__fila1{
+      display:grid; 
+      grid-template-columns: 47.5%  47.5%;
+      column-gap: 5%;
+    }
+    .formulario__nombre{
+     display:flex;
+     flex-direction:column;  
+     padding: 0.5rem 0;
+    }
+  
+    .footer{
+     display: flex;
+     align-content: center;
+     justify-content: space-between;
+     padding: 2rem 0;
+     width: 100vw;
+     height:100px;
+     background-color:#eec78c ;    
+    }
+      .footer__titulo{
+      /* width: 20%; */
+      display: flex;
+      align-items: center;
+      padding-left: 5rem;
+      font-family: 'Lora', serif;
+      text-transform: uppercase;
+      }
+      .footer__iconos{
+      display:flex;
+      align-items: center;
+      justify-content: flex-end;
+      }
+}
+@media(min-width:1024px){
+    .header{
+      margin:0;
+      align-content: center;
+      width:100%;
+      background-color: #eec78c ;
+      } 
+    .header__nav{
+       display: flex;
+     /* justify-content: space-evenly;
+    align-items: center; */
+    justify-content: center;
+    align-items: center; 
+    list-style-type:none;  
+    }
+    .header__link{
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    color:#342B1D;
+    font-weight:bold;
+    text-decoration: none;
+    padding: 1rem; 
+    /*font-size: 0;
+    width: 0%;*/
+    }
+    .header__link--logo{
+    /* padding:10px; */
+    margin-left: 2rem;
+    }
+    .header__img--hamburguesa{
+      width: 0;
+      size: 0; 
+      } 
+
+    .principal{
+    width:auto;
+    height:100vh;
+    margin:0;
+    padding: 1rem;
+    }
+    .principal__index{
+    background-image:url(../assets/te_blend.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    color:white;
+    font-size: 2rem;
+    padding: 7rem 0rem;
+    }
+    .principal__sobreNosotros{
+    color:#342B1D;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    height: 50%;
+    }
+    .principal__contacto{
+    display: grid;
+    justify-content: center; 
+    }
+    .principal__titulo{
+    /* width: 100%; */
+      padding-left:5rem; 
+    margin-bottom:2rem;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    text-align:left;
+    }
+    .principal__contacto--titulo{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 2rem 0;
+    }
+    .principal__texto{
+    padding: 2rem 0; 
+    font-family: 'Roboto', sans-serif;
+    } 
+    .principal__texto--index{
+    /* width: 80%; */
+    padding-bottom: 5rem;
+    padding-left:5rem;
+    font-size: 2rem;
+    }
+    .principal__texto--sobreNosotros{
+    color:#342B1D;
+    width: 80vw;
+    font-size: 1.3rem;
+    }
+    .principal__texto--blends{
+    color: #342B1D;;
+    width: 80vw;
+    font-size: 1.5rem;   
+    }
+    .principal__contacto--texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:#342B1D;
+    }
+    .principal__boton{
+    border: none; 
+    margin-left:5rem;
+    }
+    .principal__boton--blends{
+    background-color: #eec78c; 
+    border: none;    
+    }
+    .principal__boton--tienda{
+    background-color: #eec78c; 
+    border: none;    
+    }
+    .principal__botonLink--index{
+    width: 3.5rem; 
+    height: 1rem;
+    padding: 1rem;
+    color: #342B1D;
+    background-color: #eec78c;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+    .principal__botonLink--blends{
+    width: 5rem; 
+    height: 2rem;
+    color: white;
+    background-color:  #967e5b;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    }
+    .principal__botonLink--tienda{
+    width: 5rem; 
+    height: 2rem;
+    color: #342B1D;;
+    background-color:  #967e5b;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    }
+    .formulario__boton{
+    background-color: #342B1D;;
+    color:  white;
+    border:none;
+    height:3rem;
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    }
+  
+    .header__nav--secciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type:none;  
+    background-color: #eec78c;
+    padding: 1rem 0;
+    }
+  
+    .secundario{
+    margin-left: 5rem;   
+    margin-bottom: 4rem; 
+    }
+    .secundario__tienda{
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 1rem 5rem;
+    }
+    .secundario__titulo{
+     font-family: 'Lora', serif;
+     text-transform: uppercase;
+     text-align:left;
+    }
+    .secundario__titulo--index{
+      width: 100%;
+      font-size: 2rem;  
+      padding-top: 2rem;  
+    }
+    .secundario__titulo--sobreNosotros{
+      font-size: 1rem;
+      padding: 1rem 0;
+      padding-right: 1rem;  
+      padding-left:3rem;
+    }
+    .secundario__titulo--blends{
+      font-size: 1rem;
+      width: 100%;
+    }
+    .secundario__contenedor--index{
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+  
+    .secundario__texto{
+      font-family: 'Roboto', sans-serif;
+    }
+    .secundario__texto--index{
+      padding-right:3rem;
+      padding-top: 5rem;
+      font-size: 1.2rem;
+    }
+    .secundario__texto--sobreNosotros{
+      font-size: 1.3rem;
+      padding-left: 0.5rem;  
+      color:#342B1D; 
+      font-family: 'Roboto', sans-serif;
+    }   
+    .secundario__texto--blends{
+      margin-bottom: 2rem;
+    }
+  
+  
+    .secundario__img--index{
+      padding: 4rem;
+    }
+    .secundario__index--img{
+      /* width: 0;   */
+    }
+    .secundario__img--sobreNosotros{
+     margin-right: 1rem;
+    }
+    .secundario__sobreNosotros{
+     padding-left:5rem;
+    }
+    .secundario__autores figcaption{
+     padding-left: 4rem;  
+    }
+    .secundario__columna1{
+     display:flex;
+     flex-direction: column;
+     padding: 2rem;
+     background-color: #eec78c;
+    }
+    .secundario__columna1 figcaption{
+     padding: 0.5rem 0;
+     font-family: 'Lora', serif;
+     text-transform: uppercase;
+     font-weight: bold;
+    }
+    .secundario__columna1 h3{
+      font-family: 'Lora', serif;
+      margin-bottom:2rem;
+    }
+    .secundario__columna1--sobreNosotros{
+     font-family: 'Lora', serif;
+     text-transform: uppercase;
+     font-weight: bold;
+    }
+    .secundario__columna1--sobreNosotros figcaption{
+     text-align: start;
+     padding-left: 4rem; 
+    }
+    .secundario__columna2{
+      width:90%;
+      display:flex;
+      flex-direction: column;
+      padding: 2rem;
+      align-items: flex-start;
+      justify-content: space-evenly;
+    }
+    .secundario__contenedor--blends{
+      width:83%;
+      background-color:#eec78c;   
+      display:grid;
+      grid-template-columns: 30% 65%;
+      margin-bottom:2rem;
+    }
+    .secundario__contenedor--sobreNosotros{
+      width:100%;
+      display:grid;
+      grid-template-columns: 20% 80%;
+      margin-bottom:2rem;
+    }
+    .secundario__contenedor--tienda{
+      width:22%;
+      background-color:#eec78c;   
+      margin: 2rem;
+      display:grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 70% 10% 10% 10%;
+      align-content: center;  
+    }
+    .principal__botonLink--tienda{
+      width: 5rem; 
+      height: 2rem;
+      color: white;
+      background-color:  #967e5b;
+      font-family: 'Lora', serif;
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 1rem;
+      text-decoration: none;
+    }
+    .formulario{
+      width: 100%;
+      display:grid;    
+      justify-content: center; 
+      grid-template-columns: 50rem;
+      margin: 3rem 0;
+    }
+    .formulario input{
+      padding: 1rem 0.5rem;
+    }
+    .formulario__campo{
+      display:flex;
+      flex-direction:column;
+      padding: 1rem 0;
+      font-family: 'Lora', serif;
+    }
+    .formulario__fila1{
+      display:grid; 
+      grid-template-columns: 47.5%  47.5%;
+      column-gap: 5%;
+    }
+    .formulario__nombre{
+     display:flex;
+     flex-direction:column;  
+     padding: 0.5rem 0;
+    }
+  
+    .footer{
+     display: flex;
+     align-content: center;
+     justify-content: space-between;
+     padding: 2rem 0;
+     width: 100vw;
+     height:100px;
+     background-color:#eec78c ;    
+    }
+      .footer__titulo{
+      /* width: 20%; */
+      display: flex;
+      align-items: center;
+      padding-left: 5rem;
+      font-family: 'Lora', serif;
+      text-transform: uppercase;
+      }
+      .footer__iconos{
+      display:flex;
+      align-items: center;
+      justify-content: flex-end;
+      }
+ }      
+  
